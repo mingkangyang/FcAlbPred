@@ -1,0 +1,17 @@
+name: FcAlbPred
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn
+  - h5py
+  - seaborn
+  - biopandas
+  - nltk
+  - pip:
+      - tensorflow[and-cuda]
